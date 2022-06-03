@@ -1,0 +1,11 @@
+#Task0_parta
+mkdir Einstein
+mkdir biocomputing && cd biocomputing
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+mv wildtype.fna ../Einstein/
+rm wildtype.gbk.1
+cd ../Einstein/ && grep tatatata wildtype.fna
+grep tatatata wildtype.fna > mutant.txt
+clear && history
+cd ..
+ls Einstein biocomputing
